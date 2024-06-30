@@ -1,0 +1,101 @@
+.sec-hero {
+    background-image: url(../images/hero-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 750px;
+}
+
+.sec-hero .container {
+    height: 100%;
+}
+
+.sec-hero .row {
+    height: 100%;
+}
+
+.sec-hero-text {
+    max-width: 310px;
+}
+
+.outer-text {
+    transform: translateX(50%);
+    font-size: 12px;
+}
+
+.text-head h6 {
+    font-size: 12px;
+}
+
+.sec-2 {
+    background-image: url(../images/background-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+
+.sec-2 .container {
+    height: 100%;
+}
+
+.sec-2 .row {
+    height: 100%;
+}
+
+.sec-3-text p {
+    font-size: 10px;
+}
+
+.sec-footer {
+    font-size: 12px;
+}
+
+.footer-2 ul li {
+    list-style: none;
+    position: relative;
+    padding: 5px;
+    gap: 5px;
+}
+
+.footer-2 ul li::before {
+    content: "";
+    height: 5px;
+    width: 5px;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px;
+}
+
+.footer-3 h4 {
+    position: relative;
+    padding-bottom: 60px;
+}
+
+.footer-3 h4::after {
+    content: "";
+    height: 60px;
+    width: 100px;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin-top: 33px;
+}
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+button.slick-arrow {
+    display: none !important;
+}
+
+ul.slick-dots li button {
+    display: none;
+}

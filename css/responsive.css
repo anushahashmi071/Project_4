@@ -1,0 +1,13 @@
+@media screen and (max-width: 760px) {
+    .sec-hero {
+        height: 400px;
+    }
+
+    .outer-text {
+        transform: translateX(0px);
+    }
+
+    .sec-2-btn button {
+        font-size: 18px;
+    }
+}
